@@ -29,5 +29,7 @@
     "postcss-simple-vars": "^7.0.1",
     "typescript": "5.4.2"
   },
-  "packageManager": "yarn@4.1.1"
+  "engines": {
+    "node": ">=16.0.0 <17.0.0"
+  }
 }

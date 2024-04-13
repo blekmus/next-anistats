@@ -596,9 +596,9 @@ const AnilistExporter: NextPage = () => {
               width="20"
               height="20"
               viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               style={{ display: "inline" }}
             >
               <path
