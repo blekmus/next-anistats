@@ -1,0 +1,32 @@
+ :root {
+  --mantine-color-dark-8: #141517;
+  --mantine-color-dark-7: #1a1b1e;
+  --mantine-color-dark-6: #25262b;
+  --mantine-color-dark-5: #2C2E33;
+  --mantine-color-dark-3: #53565d;
+  --mantine-color-dark-2: #5b606d;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0; 
+
+    /* get rid of the miserable chrome blue border highlight */
+    -webkit-tap-highlight-color: transparent;
+}
+
+*:focus {
+    outline: none;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: var(--mantine-color-dark-7);
+}
+
