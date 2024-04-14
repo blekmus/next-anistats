@@ -29,6 +29,8 @@ export default function Document() {
           property="twitter:url"
           content="https://anistats.thelonelylands.com"
         />
+
+        <link rel="icon" href="/favicon.ico" />
         <ColorSchemeScript />
       </Head>
       <body>
